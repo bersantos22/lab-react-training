@@ -1,13 +1,13 @@
 import React from "react";
-import styles from './IdCard.module.css';
+
 
 
 function IdCard(props){
 return(
-    <section class='section1'>
+    <section>
         <div style={{border:"1px solid black", margin:"20px", width:"1200px",height:"160px" ,display:'flex', flexDirection:'row'}}>
             <div style={{padding:'20px'}}>
-                <img  src={props.picture} alt= {props.alt} />;
+                <img  src={props.picture} alt='photoPerson' />;
             </div>
 
             <div>
